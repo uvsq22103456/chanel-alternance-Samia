@@ -18,7 +18,7 @@
       text-align: center;
     }
     header img {
-      width: 90px;
+      max-width: 200px;
       margin-bottom: 1rem;
     }
     header h1 {
@@ -71,11 +71,15 @@
       background-color: #000;
       color: #fff;
     }
+    footer img {
+      max-width: 90px;
+      margin-top: 10px;
+    }
   </style>
 </head>
 <body>
   <header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/Chanel_logo_interlocking_cs.svg" alt="Chanel logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chanel_logo.svg/2560px-Chanel_logo.svg.png" alt="Logo Chanel">
     <h1>Samia Said Hassani – Alternance Risk Analyst</h1>
     <p>Cybersécurité · Analyse de risques · Monitoring · Automatisation · Communication métier</p>
   </header>
@@ -122,7 +126,18 @@
 
     <section>
       <h2>📄 CV</h2>
-      <p><a class="btn" href="CV_Samia_CHANEL_SANS_MOTS_CLES.docx" target="_blank">Télécharger mon CV</a></p>
+      
+      <embed class="pdf-viewer" src="CV_alternance_risk_analyst_samia.pdf">
+    </section>
+
+    <section>
+      <h2>📂 Autres documents</h2>
+      <h3>Lettre de recommandation</h3>
+      <embed class="pdf-viewer" src="Lettre de recommandation Samia.pdf">
+      <h3>Fiche d'évaluation de stage</h3>
+      <embed class="pdf-viewer" src="Fiche Evaluation Stage.docx">
+      <h3>Affiche de motivation</h3>
+      <embed class="pdf-viewer" src="affiche_alternance_samia.pdf">
     </section>
 
     <section>
@@ -136,7 +151,9 @@
   </main>
 
   <footer>
-    © 2025 Samia Said Hassani — Alternance Risk Analyst · CHANEL
+    © 2025 Samia Said Hassani — Alternance Risk Analyst · CHANEL  
+    <br>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Chanel_logo.svg/2560px-Chanel_logo.svg.png" alt="Chanel Logo">
   </footer>
 </body>
 </html>
